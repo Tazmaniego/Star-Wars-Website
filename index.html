@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en">
     <head>
+        <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Star Wars Fan Club</title> 
     </head>
+
     <body>
     <h1>Star Wars</h1>
     <img class="fit-picture"
@@ -28,12 +30,15 @@
     <p>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dignissimos minus voluptatem.
     </p>
-    <<label for="email">Enter your globex.com email:</label>
-    <input type="email" id="email"
-       pattern=".+@outlook\.com" size="30" required>
-    minlength="unlimted" maxlength="unlimted" size="18">
+    <form>
+    <input
+    type="email"
+    name="email"
+    placeholder="Type email & hit enter"
+    required/>
+    </form>
     <footer>
-    <p>Copyright 2023 Star Wars fan Club</p>
+    <p class="copyright">Copyright 2022 Star Wars fan Club</p>
     </footer>
     </body>
 </html>
